@@ -1,0 +1,14 @@
+{
+  "name": "atomic-swap-xcp",
+  "version": "1.0.0",
+  "description": "Test implementation for atomic swaps",
+  "author": "keyuno",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bip68": "^1.0.4",
+    "bitcoinjs-lib": "^6.1.3",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
