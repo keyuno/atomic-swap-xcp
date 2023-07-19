@@ -20,13 +20,13 @@ Atomic swaps enable the exchange of assets between two parties without the need 
 
 3. Hash Locking: Alice creates a hash of the secret preimage and provides it to Bob. Bob uses this hash to lock his HTLC. The hash acts as proof that the preimage exists without revealing the actual preimage.
 
-4. Hash Time Locked Contracts (HTLCs): To facilitate the atomic swap, both Alice and Bob create HTLCs. These contracts ensure that both parties must reveal a secret preimage to claim their funds, making the exchange trustless.
+4. Hash Time Locked Contracts (HTLCs): To facilitate the atomic swap, both Alice and Bob create HTLCs.
 
 5. Time Constraints: The HTLCs have specific time constraints. Alice's HTLC has a longer time constraint compared to Bob's HTLC. This longer time constraint allows Bob enough time to claim his asset from Alice's locked HTLC after she reveals the preimage. This process adds an extra layer of security and prevents Alice from attempting to undercut the transaction before Bob can complete the swap.
 
 6. Verification: Both parties verify each other's contracts to ensure that the agreed-upon conditions are accurately represented.
 
-7. Contract Funding: Alice and Bob fund their respective HTLCs with the assets they want to trade. The assets are locked in the HTLCs but cannot be immediately spent.
+7. Contract Funding: Alice and then Bob fund their respective HTLCs with the assets they want to trade. The assets are locked in the HTLCs but cannot be immediately spent.
 
 8. Claiming the Funds: When Alice is ready to proceed with the atomic swap, she reveals her secret preimage by claiming the locked BTC from the HTLC Bob created. This action also allows Bob to claim the locked XCP from the HTLC that Alice created.
 
