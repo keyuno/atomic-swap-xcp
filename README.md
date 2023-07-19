@@ -94,7 +94,7 @@ For Alice's redemption:
 node bob.js alice
 ```
 
-The script will then create and broadcast the transaction using the specified redemption scenario. The script `alice.js` is used to redeem Bitcoin, while `secret.js` is used to extract the secret from the transaction. 
+The script will then create and broadcast the transaction using the specified redemption scenario. The script `alice.js` is used to redeem Bitcoin, while `secret.js` is used to extract the secret from the transaction. In this demonstration, different passphrases are used for Bitcoin and XCP transactions solely for illustrative purposes. In a real-world atomic swap scenario, when constructing an actual atomic swap, Alice will provide Bob with the hash of the secret, which Bob will use to create the lock script.
 
 The `sweep.js` script is provided to test the sweep function and can be used for bundling sales and ownership transfer. Ensure that you have an additional 0.5 testnet XCP fee available for the transaction to work correctly.
 
