@@ -1,6 +1,6 @@
-# Atomic Swap between Bitcoin and CounterParty Assets (Testnet Demo)
+# Atomic Swap between Bitcoin and Counterparty Assets (Testnet Demo)
 
-The following documentation outlines a trustless atomic swap process between two parties, Alice and Bob, using the CounterParty protocol and BitcoinJS libraries. This atomic swap allows Alice to exchange her Bitcoin (BTC) for Bob's CounterParty asset (e.g., XCP) based on a predetermined exchange rate and amount.
+The following documentation outlines a trustless atomic swap process between two parties, Alice and Bob, using the Counterparty protocol and BitcoinJS libraries. This atomic swap allows Alice to exchange her Bitcoin (BTC) for Bob's Counterparty asset (e.g., XCP) based on a predetermined exchange rate and amount.
 
 ### Important Notes
 
@@ -35,7 +35,7 @@ The use of HTLCs and time constraints ensures that the exchange is trustless and
 
 ## Code Implementation
 
-The code provided in this repository demonstrates how to perform the atomic swap between Alice and Bob using the CounterParty protocol and BitcoinJS libraries. Before running the code, make sure you have Node.js and npm installed on your machine.
+The code provided in this repository demonstrates how to perform the atomic swap between Alice and Bob using the Counterparty protocol and BitcoinJS libraries. Before running the code, make sure you have Node.js and npm installed on your machine.
 
 ### Getting Started
 
@@ -78,7 +78,7 @@ node bob.js generate
 Next, proceed to send the agreed amount of testnet XCP to the shared address. Additionally, ensure that you send some testnet Bitcoin to cover the transaction fees.
 
 
-### Preparing and Broadcasting CounterParty Transaction
+### Preparing and Broadcasting Counterparty Transaction
 
 To prepare and broadcast the transaction, specify whether it's Bob's or Alice redemption scenario. 
 
