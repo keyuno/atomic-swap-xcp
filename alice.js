@@ -161,7 +161,7 @@ async function prepareTransaction(isRedeem) {
                     input: bitcoinjs_lib.script.compile([
                         signature,
                         bobPublicKey,
-                        bitcoinjs_lib.opcodes.OP_TRUE // Set OP_TRUE for Alice's redemption scenario
+                        bitcoinjs_lib.opcodes.OP_TRUE 
                     ]),
                     output: lockingScript
                 }
@@ -184,7 +184,7 @@ async function prepareTransaction(isRedeem) {
                         signature,
                         alicePublicKey,
                         preimage,
-                        bitcoinjs_lib.opcodes.OP_FALSE // Set OP_FALSE for Bob's redemption scenario
+                        bitcoinjs_lib.opcodes.OP_FALSE 
                     ]),
                     output: lockingScript
                 }
